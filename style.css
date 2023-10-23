@@ -497,7 +497,7 @@ html,body{
 }
 @media (max-width: 440px){
   .bigtext h1{
-    font-size: 5.7rem;
+    font-size: 5rem;
   }
   .imag1 img{
     height: 2.4rem;
