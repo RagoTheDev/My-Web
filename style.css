@@ -120,7 +120,7 @@ html,body{
   align-items: center;
   flex-direction: column;
   font-size: 6.4rem;
-  animation: reveal 1.5s;
+  animation: reveal 3s ease;
 }
 @keyframes reveal {
   0% {
@@ -132,7 +132,7 @@ html,body{
 }
 .dcolor{
   color: orangered;
-  animation: reveal1 1.5s;
+  animation: reveal1 3s ease;
   font-size: 5rem;
 }
 @keyframes reveal1 {
