@@ -22,3 +22,7 @@ var loader = document.getElementById('preloader');
 window.addEventListener("load", function () {
     loader.style.display = "none";
 })
+
+window.onload = function () {
+  document.getElementById("autoplay").play();
+}
