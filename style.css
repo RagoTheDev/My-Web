@@ -215,7 +215,9 @@ html,body{
   position: absolute;
   padding-bottom: 36rem;
   margin-left: 9rem;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .interest-text h1{
   color: orangered;
