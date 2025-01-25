@@ -101,14 +101,30 @@ html,body{
   margin-top: 4rem;
 }
 
-.cont h2 {
+.conttext {
+  animation: scroll 2s infinite ease-in-out;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0):
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.conttext h2 {
   margin-top: 2rem;
   font-size: 1rem;
   font-weight: 400;
   font-family: sans-serif;
   color: white;
   text-align: center;
-  filter: opacity(.4);
+  filter: opacity(.5);
 }
 .textbox{
   text-align: center;
@@ -154,7 +170,7 @@ html,body{
 }
 .about-me{
   width: auto;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,11 +217,12 @@ html,body{
   padding-left: 1.5rem;
 }
 .interests{
-  height: 100vh;
+  height: 90vh;
   width: auto;
   overflow: hidden;
   background-color: black;
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -216,16 +233,15 @@ html,body{
 }
 .interest-text{
   width: fit-content;
-  position: absolute;
-  padding-bottom: 36rem;
-  margin-left: 9rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 2rem 0 6rem 0;
 }
 .interest-text h1{
   color: orangered;
   font-size: 2rem;
+  text-align: center;
 }
 .scope {
   position: relative;
