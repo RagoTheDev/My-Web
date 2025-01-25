@@ -99,7 +99,16 @@ html,body{
   display: grid;
   height: 100vh;
   margin-top: 4rem;
+}
 
+.cont h2 {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  filter: opacity(.4);
 }
 .textbox{
   text-align: center;
@@ -169,7 +178,7 @@ html,body{
 }
 @keyframes picme {
   0%{
-    transform: translate(-32%,0);
+    transform: translate(-42%,0);
   }
   100%{
     transform: translate(0,0);
