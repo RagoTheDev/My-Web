@@ -149,10 +149,7 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(images/bg2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  
+  background-color: black; 
 }
 
 .content{
@@ -198,9 +195,7 @@ html,body{
   height: 100vh;
   width: auto;
   overflow: hidden;
-  background-image: url(images/bg2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
